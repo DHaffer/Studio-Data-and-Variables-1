@@ -12,7 +12,7 @@ let fuelMassKg = 760000;
 let shuttleMassKg = 74842.31;
 let totalMassKg = (crewMassKg + fuelMassKg + shuttleMassKg);
 let fuelTempCelsius = -225;
-let fuelLevel = '100%';
+let fuelLevel = 100;
 let weatherStatus = 'clear';
 
 
@@ -33,16 +33,16 @@ Time: ${time}
 -------------------------------------
 > FUEL DATA
 -------------------------------------
-* Fuel temp celsius: ${fuelTempCelsius}
-* Fuel level: ${fuelLevel}
+* Fuel temp celsius: ${fuelTempCelsius} C
+* Fuel level: ${fuelLevel}%
 
 -------------------------------------
 > MASS DATA
 -------------------------------------
-* Crew mass: ${crewMassKg}
-* Fuel mass: ${fuelMassKg}
-* Shuttle mass: ${shuttleMassKg}
-* Total mass: ${totalMassKg}
+* Crew mass: ${crewMassKg} kg
+* Fuel mass: ${fuelMassKg} kg
+* Shuttle mass: ${shuttleMassKg} kg
+* Total mass: ${totalMassKg} kg
 
 -------------------------------------
 > FLIGHT PLAN
