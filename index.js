@@ -18,7 +18,7 @@ let weatherStatus = 'clear';
 
 
 // Write code to generate the LC04 report here:
-let LC04 = 
+let lC04 = 
 `> LC04 - LAUNCH CHECKLIST
 -------------------------------------
 Date: ${date}
@@ -58,6 +58,6 @@ Time: ${time}
 
 
 // When done, have your TA check your code.
-console.log(LC04);
+console.log(lC04);
 
 // BONUS: Use readline-sync to prompt the user to enter the number of astronauts going on the mission.
